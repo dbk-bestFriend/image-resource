@@ -1,6 +1,6 @@
 ## 项目模版来源文档
-###[集成方案-vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-###[基础模板: vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 
+### [集成方案-vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+### [基础模板: vue-admin-template](https://github.com/PanJiaChen/vue-admin-template) 
 
 ## Build Setup
 
@@ -29,7 +29,7 @@ npm run build:stage
 npm run build:prod
 ```
 
-##页面结构
+## 页面结构
 
 ```bash
 ├── build                      # 构建相关
@@ -63,7 +63,7 @@ npm run build:prod
 
 ```
 
-##页面布局layout
+## 页面布局layout
 ![Image text](https://raw.githubusercontent.com/dbk-bestFriend/image-resource/master/page.png)
 
 ## 开发注意事项
@@ -72,7 +72,7 @@ npm run build:prod
 ![Image text](https://raw.githubusercontent.com/dbk-bestFriend/image-resource/master/route.png)
 ![Image text](https://raw.githubusercontent.com/dbk-bestFriend/image-resource/master/api.png)
 
-###2.新增路由
+### 2.新增路由
 
 ```bash
 export default {
@@ -92,7 +92,7 @@ export default {
 }
 ```
 
-####路由规则注意事项
+#### 路由规则注意事项
 
 ```bash
 redirect：‘noRedirect’        //设置为noRedirect面包屑不会被点击
@@ -111,8 +111,8 @@ npm run new
 
 ### 3.全局资源的引用路径 @ > 'src'
 
-##全局组件的自动注册
-###register-components.js  每次新增组件无需手动注册，新增完组件根据组件name，可直接使用
+## 全局组件的自动注册
+### register-components.js  每次新增组件无需手动注册，新增完组件根据组件name，可直接使用
 
 ```bash
 import _ from 'lodash'
@@ -159,7 +159,7 @@ export default registerComponents
 
 ## 代码规范
 
-####1.统一 eslint规范
+#### 1.统一 eslint规范
 
 ```bash
 // 禁止条件表达式中出现赋值操作符
@@ -179,6 +179,6 @@ export default registerComponents
 // 禁止不必要的布尔转换
 ```
 
-####2.统一编辑软件（vscode）带有自动修复功能，能够hin好的辅助开发
+#### 2.统一编辑软件（vscode）带有自动修复功能，能够hin好的辅助开发
 
-####3.代码命名规范
+#### 3.代码命名规范
